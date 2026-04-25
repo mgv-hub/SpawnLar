@@ -1,0 +1,10 @@
+# SpawnLar - Spawn Location Configuration
+# Set the coordinates where players will be teleported
+
+Spawn:
+  world: world
+  x: 0
+  y: 64
+  z: 0
+  yaw: 0
+  pitch: 0

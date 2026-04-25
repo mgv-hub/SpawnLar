@@ -1,0 +1,8 @@
+# SpawnLar Configuration File
+# Generated automatically on first run
+
+# Enable or disable the welcome MOTD message on player join
+Motd-Enabled: true
+
+# Enable or disable automatic teleport to spawn on player join
+Teleport-On-Join: true
