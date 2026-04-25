@@ -1,0 +1,30 @@
+name: SpawnLar
+version: '${project.version}'
+main: com.mgv.spawnlar.SpawnLar
+api-version: '1.20'
+authors: [ mgv ]
+description: Safe teleportation to spawn with countdown protection
+website: https://github.com/mgv-hub/SpawnLar
+
+commands:
+  hub:
+    description: Teleport to spawn with a countdown timer
+    usage: /hub
+    aliases: [ lobby, spawn ]
+    permission: spawnlar.hub
+    permission-message: "&cYou don't have permission to use this command."
+  spawnlar:
+    description: Administrative commands for SpawnLar
+    usage: /spawnlar <reload>
+    permission: spawnlar.admin
+    permission-message: "&cYou don't have permission to use this command."
+
+permissions:
+  spawnlar.hub:
+    description: Allows use of the /hub command
+    default: true
+  spawnlar.admin:
+    description: Administrative permissions for SpawnLar
+    default: op
+    children:
+      spawnlar.hub: true

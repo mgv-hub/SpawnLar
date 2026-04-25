@@ -1,0 +1,21 @@
+# SpawnLar - Messages Configuration
+# Use & for color codes (e.g., &a for green, &c for red)
+# Use {player} placeholder for player name
+# Use {seconds} placeholder for countdown value
+
+Messages:
+  Motd:
+    - "&aWelcome to the server, {player}!"
+    - "&7Use /hub to teleport to spawn"
+  
+  Player-join: "{player} joined the server!"
+  
+  Teleport-Countdown: "&aTeleporting in &e{seconds}&a seconds..."
+  
+  Teleport-Cancelled: "&cTeleport cancelled!"
+  
+  Hub-Not-Set: "&cHub location is not set."
+  
+  Already-Teleporting: "&cYou are already being teleported to the hub."
+  
+  Command-Console-Only: "&cThis command can only be used in-game."
